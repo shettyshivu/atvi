@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lexend";
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  color: inherit;
+}
+
+html {
+  overflow-x: hidden !important;
+}
+
+:root {
+  --primary-color: #52565e;
+  --secondary-color: #ffc845;
+  --tertiary-color: rgb(104, 185, 132);
+  --temp-color: #cffde1;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(65, 84, 241, 0.8);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4154f1;
+}
+
+.nav-item {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: 0.3s;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  color: var(--primary-color);
+}
+
+.nav-item a {
+  color: var(--primary-color);
+}
+
+.nav-item a:hover {
+  color: var(--secondary-color);
+}
+
+.nav-item a:focus {
+  color: var(--primary-color);
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--secondary-color);
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+
+button:focus {
+  box-shadow: none !important;
+}
+
+button:focus {
+  box-shadow: none !important;
+}
+
+.logo-img {
+  width: 35px;
+}
